@@ -8,11 +8,11 @@ Option Explicit On
 Option Strict On
 
 Public Class AddressLabelForm
-    Private Sub ExitButton_Click(sender As Object, e As EventArgs) Handles ExitButton.Click
+    Private Sub ExitButton_Click(sender As Object, e As EventArgs) Handles ExitButton.Click, ExitToolStripMenuItem.Click
         Me.Close()
     End Sub
 
-    Private Sub ClearButton_Click(sender As Object, e As EventArgs) Handles ClearButton.Click
+    Private Sub ClearButton_Click(sender As Object, e As EventArgs) Handles ClearButton.Click, ClearToolStripMenuItem.Click
         FirstNameTextBox.Clear()
         LastNameTextBox.Clear()
         StreetAddressTextBox.Clear()
@@ -32,7 +32,7 @@ Public Class AddressLabelForm
         FirstNameTextBox.Select()
     End Sub
 
-    Private Sub DisplayButton_Click(sender As Object, e As EventArgs) Handles DisplayButton.Click
+    Private Sub DisplayButton_Click(sender As Object, e As EventArgs) Handles DisplayButton.Click, DisplayLabelToolStripMenuItem.Click
         Dim errorFlag As Boolean = False
 
         FirstNameErrorLabel.Visible = False
