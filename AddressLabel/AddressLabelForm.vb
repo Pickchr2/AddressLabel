@@ -4,6 +4,9 @@
 'Address Label
 'https://github.com/Pickchr2/AddressLabel.git
 
+Option Explicit On
+Option Strict On
+
 Public Class AddressLabelForm
 
 End Class
