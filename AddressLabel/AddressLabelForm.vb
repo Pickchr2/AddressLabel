@@ -31,4 +31,10 @@ Public Class AddressLabelForm
 
         FirstNameTextBox.Select()
     End Sub
+
+    Private Sub DisplayButton_Click(sender As Object, e As EventArgs) Handles DisplayButton.Click
+        DisplayLabel.Text = FirstNameTextBox.Text.ToString() & " " & LastNameTextBox.Text.ToString() & vbCrLf _
+        & StreetAddressTextBox.Text.ToString() & vbCrLf _
+        & CityTextBox.Text.ToString() & ", " & StateTextBox.Text.ToString() & " " & ZipTextBox.Text.ToString()
+    End Sub
 End Class

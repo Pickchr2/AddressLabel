@@ -54,7 +54,7 @@ Partial Class AddressLabelForm
         '
         'DisplayLabel
         '
-        Me.DisplayLabel.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.DisplayLabel.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.DisplayLabel.Location = New System.Drawing.Point(6, 23)
         Me.DisplayLabel.Name = "DisplayLabel"
         Me.DisplayLabel.Size = New System.Drawing.Size(357, 296)
