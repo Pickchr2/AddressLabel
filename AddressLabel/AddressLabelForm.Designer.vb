@@ -292,7 +292,7 @@ Partial Class AddressLabelForm
         Me.DisplayButton.Name = "DisplayButton"
         Me.DisplayButton.Size = New System.Drawing.Size(122, 88)
         Me.DisplayButton.TabIndex = 2
-        Me.DisplayButton.Text = "Display Label"
+        Me.DisplayButton.Text = "&Display Label"
         Me.AddressLabelToolTip.SetToolTip(Me.DisplayButton, "Click to display your generated address label.")
         Me.DisplayButton.UseVisualStyleBackColor = True
         '
@@ -302,7 +302,7 @@ Partial Class AddressLabelForm
         Me.ClearButton.Name = "ClearButton"
         Me.ClearButton.Size = New System.Drawing.Size(123, 88)
         Me.ClearButton.TabIndex = 3
-        Me.ClearButton.Text = "Clear"
+        Me.ClearButton.Text = "&Clear"
         Me.AddressLabelToolTip.SetToolTip(Me.ClearButton, "click to clear all fields.")
         Me.ClearButton.UseVisualStyleBackColor = True
         '
@@ -312,7 +312,7 @@ Partial Class AddressLabelForm
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(112, 88)
         Me.ExitButton.TabIndex = 4
-        Me.ExitButton.Text = "Exit"
+        Me.ExitButton.Text = "&Exit"
         Me.AddressLabelToolTip.SetToolTip(Me.ExitButton, "Click to exit the application.")
         Me.ExitButton.UseVisualStyleBackColor = True
         '
@@ -336,19 +336,19 @@ Partial Class AddressLabelForm
         'DisplayLabelToolStripMenuItem
         '
         Me.DisplayLabelToolStripMenuItem.Name = "DisplayLabelToolStripMenuItem"
-        Me.DisplayLabelToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.DisplayLabelToolStripMenuItem.Size = New System.Drawing.Size(181, 26)
         Me.DisplayLabelToolStripMenuItem.Text = "Display Label"
         '
         'ClearToolStripMenuItem
         '
         Me.ClearToolStripMenuItem.Name = "ClearToolStripMenuItem"
-        Me.ClearToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ClearToolStripMenuItem.Size = New System.Drawing.Size(181, 26)
         Me.ClearToolStripMenuItem.Text = "Clear"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(181, 26)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'AddressLabelForm
